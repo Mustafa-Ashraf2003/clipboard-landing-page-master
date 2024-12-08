@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+* {
+    box-sizing: border-box;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , p ,
+ul li , ol li , dl dt , dl dd {
+    margin: 0;
+    padding: 0;
+}
+/* colors */
+/* Primary */
+.Strong-Cyan {
+    background-color: hsl(171, 66%, 44%);
+}
+.Light-Blue {
+    background-color: hsl(233, 100%, 69%);
+}
+/* Neutral */
+.Dark-Grayish-Blue {
+    background-color: hsl(210, 10%, 33%);
+}
+.Grayish-Blue {
+    background-color: hsl(201, 11%, 66%);
+} 
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;    /*Weights: 400 , 600*/
+    font-size: 1.125rem;   /* 18px */
+    background-color: hsl(201, 11%, 66% , 0.1);
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.875rem;
+    background-image: url('../images/bg-header-desktop.png');
+    background-size: cover;
+    background-position: 0rem 0rem;
+    margin: 0rem;
+}
+header .logo img {
+    margin-top: 6.875rem;
+}
+header h1 {
+    color: hsl(210, 10%, 33%);
+    margin: 2.5rem 0rem .625rem 0rem;
+}
+header p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.0625rem;
+    line-height: 1.5;
+}
+header .btn button {
+    border: none;
+    color: white;
+    margin-top: 2.5rem;
+    padding: .625rem 1.875rem;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+}
+header .btn button.ios {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: .1875rem solid hsl(171, 73%, 35%);
+}
+header .btn button.mac {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: .625rem;
+    border-bottom: .1875rem solid hsl(233, 97%, 64%);
+}
+.snippets h2 ,
+.snippets p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.snippets h2 {
+    color: hsl(210, 10%, 33%);
+    margin: 6.875rem 0rem 1.25rem 0rem;
+}
+.snippets p.paragraph {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    margin-bottom: 4.375rem;
+    margin-left: 24.375rem;
+    margin-right: 28.125rem;
+    text-align: center;
+}
+.snippets .task {
+    display: flex;
+    flex-direction: row;
+}
+.snippets .task .task1 img {
+    margin-left: -3.125rem;
+    height: 90%;
+}
+.snippets .task .task2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.75rem;
+    margin-left: 2.5rem;
+}
+.snippets .task .task2 .task2-sub1 {
+    margin-bottom: 3.75rem;
+}
+.snippets .task .task2 .task2-sub2 {
+    margin-bottom: 3.75rem;
+}
+.snippets .task .task2 .task2-sub1 h3 ,
+.snippets .task .task2 .task2-sub2 h3 ,
+.snippets .task .task2 .task2-sub3 h3 {
+    color: hsl(210, 10%, 33%);
+}
+.snippets .task .task2 .task2-sub1 p ,
+.snippets .task .task2 .task2-sub2 p ,
+.snippets .task .task2 .task2-sub3 p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: hsl(201, 11%, 66%);
+    margin-top: .625rem;
+    margin-right: 25rem;
+    line-height: 1.875rem;
+}
+.Clipboard h2 ,
+.Clipboard p ,
+.Clipboard .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Clipboard p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    margin-bottom: 4.375rem;
+    margin-left: 24.375rem;
+    margin-right: 28.125rem;
+    text-align: center;
+}
+.Clipboard h2 {
+    color: hsl(210, 10%, 33%);
+    margin: 4.375rem 0rem 1.25rem 0rem;
+}
+
+.Clipboard p:nth-child(3) {
+    margin-bottom: 4.375rem;
+}
+.Supercharge h2 ,
+.Supercharge p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Supercharge h2 {
+    color: hsl(210, 10%, 33%);
+    margin: 3.75rem 0rem 1.25rem 0rem;
+}
+.Supercharge p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+}
+.Supercharge .shape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4.375rem;
+}
+.Supercharge .shape .shape1 h3 ,
+.Supercharge .shape .shape2 h3 ,
+.Supercharge .shape .shape3 h3 ,
+.Supercharge .shape .shape1 .image , 
+.Supercharge .shape .shape2 .image ,
+.Supercharge .shape .shape3 .image {
+    text-align: center;
+}
+.Supercharge .shape .shape1 .image , 
+.Supercharge .shape .shape2 .image ,
+.Supercharge .shape .shape3 .image {
+    margin-bottom: 2.5rem;
+}
+.Supercharge .shape .shape1 h3 ,
+.Supercharge .shape .shape2 h3 ,
+.Supercharge .shape .shape3 h3 {
+    margin-bottom: 1.25rem;
+    color: hsl(210, 10%, 33%);
+}
+.Supercharge .shape .shape1 p ,
+.Supercharge .shape .shape2 p ,
+.Supercharge .shape .shape3 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.Supercharge .shape .shape1 p {
+    width: 21.875rem;
+}
+.Supercharge .shape .shape2 p {
+    width: 23.75rem;
+}
+.Supercharge .shape .shape3 p {
+    width: 23.75rem;
+}
+article.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8.75rem;
+}
+.Clipboard-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.25rem;
+}
+.Clipboard-2 h2 {
+    color: hsl(210, 10%, 33%);
+    margin: 2.5rem 0rem .625rem 0rem;
+}
+.Clipboard-2 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    margin-top: .625rem;
+    width: 42.5rem;
+    text-align: center;
+}
+.Clipboard-2 .btn button {
+    border: none;
+    color: white;
+    margin-top: 2.5rem;
+    padding: .625rem 1.875rem;
+    cursor: pointer;
+    margin-bottom: 7.5rem;
+    border-radius: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+}
+.Clipboard-2 .btn button.ios {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: .1875rem solid hsl(171, 73%, 35%);
+}
+.Clipboard-2 .btn button.mac {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: .625rem;
+    border-bottom: .1875rem solid hsl(233, 97%, 64%);
+}
+footer {
+    background-color: hsl(201, 11%, 66% , 0.2);
+    width: 100%;
+    height: 9.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .image img {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+footer .contact ,
+footer .privacy ,
+footer .install {
+    color: hsl(210, 4%, 44%);
+    font-weight: 400;
+    margin-bottom: .625rem;
+}
+footer .social img {
+    margin-left: 1.25rem;
+}
+footer .install {
+    margin-bottom: 3.125rem;
+}
+.btn button.ios:hover {
+    background-color: hsl(171, 86%, 43%);
+}
+.btn button.mac:hover {
+    background-color: hsl(233, 100%, 75%);
+}
+.contact p:hover ,
+.install p:hover ,
+.privacy p:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+

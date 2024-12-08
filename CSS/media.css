@@ -1,0 +1,179 @@
+@media ( min-width: 20rem) and ( max-width: 26.5625rem ) {  /* min-width 320px and max-width 375px  */
+    header {
+        position: relative;
+    }
+    header .logo img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header h1 {
+        margin: 19.375rem 1.25rem 1.875rem 1.25rem;
+        text-align: center;
+        font-size: 1.9375rem;
+    }
+    header p:nth-child(3) {
+        text-align: center;
+        margin: 0px 1.875rem;
+    }
+    header .btn {
+        display: flex;
+        flex-direction: column;
+    }
+    header .btn button {
+        width: 19.375rem;
+        padding: 1.25rem;
+        border-radius: 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        -moz-border-radius: 2.5rem;
+        -ms-border-radius: 2.5rem;
+        -o-border-radius: 2.5rem;
+        font-size: 20px;
+    }
+    header .btn button.mac {
+        margin-left: 0rem;
+        margin-top: 1.5625rem;
+    }
+    .snippets h2 {
+        text-align: center;
+        margin-top: 9.375rem;
+        margin-left: .625rem;
+        margin-right: .625rem;
+    }
+    .snippets p.paragraph {
+        text-align: center;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .snippets .task {
+        display: flex;
+        flex-direction: column;
+    }
+    .snippets .task .task1 {
+        margin-left: 5rem;
+        height: 18.75rem;
+    }
+    .snippets .task .task1 img {
+        width: 20rem;
+    }
+    .snippets .task .task2 h3 {
+        display: flex;
+        justify-content: center;
+    }
+    .snippets .task .task2 .task2-sub1 p ,
+    .snippets .task .task2 .task2-sub2 p ,
+    .snippets .task .task2 .task2-sub3 p {
+        text-align: center;
+        margin-left: -0.9375rem;
+        margin-right: 1.25rem;
+    } 
+    .snippets .task .task2 .task2-sub3 p {
+        margin-bottom: 6.875rem;
+    }
+    .Clipboard h2{
+        text-align: center;
+        margin-top: 9.375rem;
+        margin-left: .625rem;
+        margin-right: .625rem;
+    }
+    .Clipboard p {
+        text-align: center;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .Clipboard .image {
+        height: 18.75rem;   
+    }
+    .Clipboard .image img {
+        width: 20rem;
+    }
+    .Supercharge h2{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        text-align: center;
+    }
+    .Supercharge p {
+        text-align: center;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .Supercharge .shape {
+        display: flex;
+        flex-direction: column;
+    }
+    .Supercharge .shape .shape1 ,
+    .Supercharge .shape .shape2 ,
+    .Supercharge .shape .shape3 {
+        margin-bottom: 3.125rem;
+    }
+    .Supercharge .shape .shape1 p ,
+    .Supercharge .shape .shape2 p ,
+    .Supercharge .shape .shape3 p {
+        width: 20.625rem;
+    }
+    article.logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    article.logo .logo1 ,
+    article.logo .logo2 ,
+    article.logo .logo3 ,
+    article.logo .logo4 ,
+    article.logo .logo5 {
+        margin-bottom: 6.25rem;
+    }
+    .Clipboard-2 h2 {
+        text-align: center;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .Clipboard-2 p {
+        text-align: center;
+        width: 20.3125rem;
+    }
+    .Clipboard-2 .btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .Clipboard-2 .btn button {
+        width: 19.375rem;
+        padding: 1.25rem;
+        border-radius: 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        -moz-border-radius: 2.5rem;
+        -ms-border-radius: 2.5rem;
+        -o-border-radius: 2.5rem;
+        font-size: 20px;
+    }
+    .Clipboard-2 .btn button.mac {
+        margin-left: 0rem;
+        margin-top: -5.625rem;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        text-align: center;
+    }
+    footer .contact ,
+    footer .privacy ,
+    footer .install {
+        text-align: center;
+    }
+    footer .privacy {
+        margin-top: -2.5rem;
+    }
+    footer .install {
+        margin-top: -2.5rem;
+    }
+    footer .social img {
+        margin-right: 1.25rem;
+    }
+}
+@media (max-width:20rem) {
+    body {
+        width: 21.875rem;
+    }
+}
+
